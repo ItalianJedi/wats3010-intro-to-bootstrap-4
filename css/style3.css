@@ -5,9 +5,28 @@
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    color: red;
 }
 
 .footer-item-flex {
     flex: 0 1 auto;
 }
+
+.bg-dark {
+    background-color: #EBD1A7!important;
+    background: linear-gradient(#BF8C45,#EBD1A7); /* Standard syntax (must be last) */
+} 
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #FAF6EB;
+}
+
+/* Links */
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
