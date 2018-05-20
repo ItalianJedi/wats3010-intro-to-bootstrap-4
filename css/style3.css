@@ -11,14 +11,24 @@
     flex: 0 1 auto;
 }
 
-.navbar {
-    font-color: blue;
+.navbar .navbar-brand {
+    color: #8A5004;
+    font-weight: strong;
+    font-size: 32px;
+    font-family: 'Tangerine', cursive;
 }
+
 
 .bg-dark {
     background-color: #EBD1A7!important;
     background: linear-gradient(#BF8C45,#EBD1A7);
 } 
+
+h3 {
+    font-style: italic;
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: strong;
+}
 
 body {
     font-family: 'PT Sans', sans-serif;
