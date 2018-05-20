@@ -11,9 +11,13 @@
     flex: 0 1 auto;
 }
 
+.navbar {
+    font-color: blue;
+}
+
 .bg-dark {
     background-color: #EBD1A7!important;
-    background: linear-gradient(#BF8C45,#EBD1A7); /* Standard syntax (must be last) */
+    background: linear-gradient(#BF8C45,#EBD1A7);
 } 
 
 body {
