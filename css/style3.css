@@ -16,6 +16,10 @@
     font-weight: strong;
     font-size: 32px;
     font-family: 'Tangerine', cursive;
+    text-shadow: 1px 1px rgba(255,255,255,0.8);
+    border-style: double;
+    border-width: 7px;
+    border-radius: 5px;
 }
 
 
@@ -24,7 +28,8 @@
     background: linear-gradient(#BF8C45,#EBD1A7);
 } 
 
-h3 {
+
+.carousel {
     font-style: italic;
     font-family: 'Nothing You Could Do', cursive;
     font-weight: strong;
@@ -44,3 +49,6 @@ a:visited {
     color: green;
 }
 
+[title~=Akimbo] {
+    border: 3px solid #8A5004;
+}
